@@ -1,0 +1,38 @@
+1) kernal version;
+Linux version 4.18.16-300.fc29.x86_64 (mockbuild@bkernel04.phx2.fedoraproject.org) 
+(gcc version 8.2.1 20180801 
+(Red Hat 8.2.1-2) (GCC)) #1 SMP Sat Oct 20 23:24:08 UTC 2018
+
+2) 
+cpu-model intel(R) Core(TM) i5-4570 3.20GHz // 4 core "vm only has 1"
+Cache (on 6144 KB smart cache)
+
+3) meminfo total = 2040244 kB or 2 GB of ram
+
+4)
+fakepro   2162  0.0  0.2 223504  5472 pts/0    Ss   12:40   0:00 bash
+fakepro   2287  0.0  0.2 223716  5644 pts/1    Ss   12:40   0:00 -bash
+fakepro   2514  0.0  0.2 223504  5500 pts/3    Ss   12:44   0:00 bash
+fakepro   5347  0.0  0.2 223852  5796 pts/2    Ss+  18:27   0:00 -bash
+fakepro   6254  0.0  0.0 213216   948 pts/1    S+   19:58   0:00 grep 
+	--color=auto bash 
+
+5) cat /proc/loadavg
+0.00 0.04 0.06 2/440 6293
+	CPU load average of last 15 mins is .06 percent cpu
+
+6) looks like 4 swtiches
+[fakepro@localhost proc]$ ps aux | grep dbus
+dbus       675  0.0  0.3  25268  7176 ?        Ssl  12:38   0:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+fakepro   1306  0.0  0.3  35756  6368 ?        Ssl  12:39   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+fakepro   1456  0.0  0.2  34680  5136 ?        Sl   12:39   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+fakepro   6309  0.0  0.0 213216   896 pts/2    S+   20:05   0:00 grep --color=auto dbus
+[fakepro@localhost proc]$ 
+
+
+7)uptime 
+	19:54:56 up  7:16,  1 user,  load average: 0.06, 0.05, 0.06
+	up 7 hours, 17 minutes == 26220 seconds
+
+8) tty0                 -WU (EC p  )    4:2
+

@@ -1,0 +1,207 @@
+    1  cd cit173_lab4/
+    2  ls
+    3  less my-nfs-info.txt 
+    4  exit
+    5  ls
+    6  cd cit173_lab4/
+    7  ls
+    8  cat my-dev-nodes.txt > /dev/full
+    9  nano 4_readme
+   10  which vi
+   11  vi 4_readme
+   12  clear
+   13  mv 4_readme 4_readme_error
+   14  cd /proc
+   15  ls
+   16  ls mo
+   17  ls modules
+   18  cd /lib/modules
+   19  ls
+   20  cd 4.18.16-300.fc29.x86_64/
+   21  ls
+   22  cd kernel/
+   23  ls
+   24  find . | grep nfs
+   25  ls
+   26  cd fs
+   27  ls
+   28  cd nfs
+   29  ls
+   30  cd
+   31  cd /lib/modules/4.18.16-300.fc29.x86_64/kernel/drivers/c
+   32  cd /lib/modules/4.18.16-300.fc29.x86_64/kernel/drivers
+   33  ls
+   34  cd nfs
+   35  clear
+   36  ls
+   37  ifconfig
+   38  ifocnfig
+   39  ifconfig
+   40  which ssh
+   41  sudo service sshd start
+   42  xit
+   43  eixt
+   44  exit
+   45  groups
+   46  clear
+   47  mkdir cit173_lab4
+   48  which tmux
+   49  tmux new -s fucker
+   50  whcih monoprobe
+   51  which monoprobe
+   52  clera
+   53  clear
+   54  sudo gdisk /dev/sdb
+   55  sudo fdisk -l
+   56  df -h
+   57  clear
+   58  ls -alth /dev/ > cit173_lab4/my-new-dev-nodes.txt 
+   59  clear
+   60  cd cit173_lab4/
+   61  ls
+   62  clear
+   63  mkfs.ext3 /dev/sdb1
+   64  mkfs.ext4 /dev/sdb1
+   65  sudo mkfs.ext4 /dev/sdb1
+   66  sudo mkfs.ext4 /dev/sdb2
+   67  clear
+   68  ls
+   69  clear
+   70  ls
+   71  clear
+   72  cd
+   73  ls
+   74  clear
+   75  sudo blid
+   76  clear
+   77  sudo blkid
+   78  cd /mnt/
+   79  ls
+   80  sudo chown root:fakepro /dev/sdb1
+   81  sudo chown root:fakepro /dev/sdb2
+   82  ls
+   83  cd data/
+   84  ls
+   85  ls -al
+   86  touch wtf
+   87  clear
+   88  cd ..
+   89  ls
+   90  cd ..
+   91  sl
+   92  cd
+   93  cd mn
+   94  ls
+   95  cd /mnt/
+   96  ls
+   97  ls -al
+   98  chmod 775 /dev/sdb1
+   99  sudo chmod 775 /dev/sdb1
+  100  sudo chmod 775 /dev/sdb2
+  101  mount -a
+  102  sudo mount -a
+  103  ls
+  104  ls -al
+  105  cd data/
+  106  ls
+  107  rm why 
+  108  ls -al
+  109  claer
+  110  clear
+  111  ls
+  112  sudo rm
+  113  sudo rm why 
+  114  clear
+  115  cd ..
+  116  ls
+  117  ls -al
+  118  chmod 775 *
+  119  sudo chmod 775 *
+  120  ls
+  121  ls -al
+  122  sudo chown root:fakepro backup/
+  123  cd data/
+  124  ls
+  125  echo "" > file
+  126  touch data
+  127  ls
+  128  rm data 
+  129  clear
+  130  ls
+  131  rm file
+  132  clear
+  133  cat /etc/fstab
+  134  clear
+  135  df -T
+  136  cd 5
+  137  cd
+  138  ls
+  139  cd 5lab_cit173/
+  140  clear
+  141  df -T my-mounts.txt
+  142  df -T > my-mounts.txt
+  143  ls
+  144  cat /etc/fstab > my-fstab.txt
+  145  ls
+  146  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1 
+  147  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1 count=1000 
+  148  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1000 
+  149  dd if=/dev/random of=/mnt/data/data_file1.dat bs=10 count=1000 
+  150  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1 
+  151  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=10 
+  152  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=100 
+  153  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=75 
+  154  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=60 
+  155  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=50 
+  156  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1000 count=1 
+  157  dd if=/dev/random of=/mnt/data/data_file1.dat bs=10000 count=1 
+  158  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1000 count=1 
+  159  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1 
+  160  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1024 count=1 
+  161  dd if=/dev/random of=/mnt/data/data_file1.dat bs=8 count=1000 
+  162  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1024 count=1 
+  163  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1kB
+  164  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB
+  165  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=1
+  166  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=2
+  167  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=5
+  168  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=10
+  169  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=11
+  170  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1000 count=1
+  171  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=2
+  172  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=4
+  173  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=45
+  174  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=13
+  175  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1k count=14
+  176  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=16
+  177  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=15
+  178  dd if=/dev/random of=/mnt/data/data_file1.dat bs=1KB count=16
+  179  dd if=/dev/random of=/mnt/data/data_file2.dat bs=1KB count=16
+  180  dd if=/dev/random of=/mnt/backup/backup_file2.dat bs=1KB count=16
+  181  dd if=/dev/random of=/mnt/backup/backup_file1.dat bs=1KB count=16
+  182  pwd
+  183  ls
+  184  clear
+  185  ls
+  186  clear
+  187  ls
+  188  nano my-procfs.txt
+  189  ps aux | bash
+  190  sudo ps aux | bash
+  191  sudo ps aux | grep bash
+  192  nano my-procfs.txt
+  193  clear
+  194  sl
+  195  clear
+  196  ls
+  197  nano my-procfs.txt 
+  198  clear
+  199  sysfs
+  200  which sysfs
+  201  clear
+  202  ls
+  203  echo "echo 1 | sudo tee /sys/class/leds/input2\:\:capslock/brightness" > turn-on-capslock-led.txt
+  204  nano turn-on-capslock-led.txt 
+  205  clear
+  206  ls
+  207  history > my-command-history.txt

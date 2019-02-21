@@ -1,0 +1,12 @@
+Filesystem              Type     1K-blocks    Used Available Use% Mounted on
+devtmpfs                devtmpfs   1006496       0   1006496   0% /dev
+tmpfs                   tmpfs      1020120       0   1020120   0% /dev/shm
+tmpfs                   tmpfs      1020120    1312   1018808   1% /run
+tmpfs                   tmpfs      1020120       0   1020120   0% /sys/fs/cgroup
+/dev/mapper/fedora-root ext4      29719428 7210000  20976708  26% /
+tmpfs                   tmpfs      1020120      80   1020040   1% /tmp
+/dev/sda1               ext4        999320  148584    781924  16% /boot
+tmpfs                   tmpfs       204024    5820    198204   3% /run/user/1000
+/dev/sr0                iso9660    1885468 1885468         0 100% /run/media/fakepro/Fedora-WS-Live-29-1-2
+/dev/sdb1               ext4        121843    1550    111191   2% /mnt/data
+/dev/sdb2               ext4        372587    2062    346770   1% /mnt/backup
